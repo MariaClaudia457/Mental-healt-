@@ -1,0 +1,362 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+ 
+body {
+    background: #eeeee8;
+    color: #030b4a;
+}
+ 
+h1, h2 {
+    margin: 20px 0;
+}
+ 
+h3, h4, h5, h6 {
+    margin: 10px 0;
+}
+ 
+/* Header */
+#header {
+    background: rgb(0, 0, 0);
+    padding: 10px 20px;
+}
+ 
+#header ul {
+    display: flex;
+}
+ 
+#header ul li {
+    margin: 5px 20px;
+}
+ 
+#header a {
+    color: blue;
+    text-decoration: none;
+}
+ 
+.logo {
+    color: blue;
+}
+ 
+/* Hero */
+#hero {
+    background: #1a4a3a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+ 
+#hero h1 {
+    color: blue;
+    margin: 20px 0;
+}
+ 
+#hero p {
+    margin: 10px 0;
+}
+ 
+.btn {
+    background: blue;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    margin: 10px 0;
+}
+ 
+.hero-card {
+    background: white;
+    color: black;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border: 1px solid blue;
+}
+ 
+.stat-num {
+    font-size: 2em;
+    color: #2d7a5f;
+}
+ 
+/* Sections */
+.section {
+    padding: 40px 20px;
+}
+ 
+.bg-light {
+    background: #f5f5f0;
+}
+ 
+.bg-white {
+    background: white;
+}
+ 
+.bg-dark {
+    background: rgb(0, 0, 0);
+    color:  blue;
+}
+ 
+.bg-dark h2 {
+    color: rgb(0, 16, 161) ;
+}
+ 
+.bg-dark p {
+    color: lightgray;
+}
+ 
+/* Tag */
+.tag {
+    background: rgb(18, 90, 207);
+    border: 1px solid  blue;
+    padding: 4px 12px;
+}
+ 
+/* Two column layout */
+.two-col {
+    display: flex;
+    gap: 20px;
+}
+ 
+.two-col > * {
+    width: 50%;
+}
+ 
+/* Aside card */
+.aside-card {
+    background: #1a4a3a;
+    color: #c8e8dc;
+    padding: 20px;
+    border: 1px solid  blue;
+}
+ 
+.aside-card h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+ 
+.aside-card li {
+    padding: 5px 0;
+    border-bottom: 1px solid  blue;
+}
+ 
+/* Lists */
+.arrow-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #dde8e4;
+}
+ 
+/* Image break */
+.img-break {
+    width: 100%;
+    text-align: center;
+}
+ 
+.img-break img {
+    width: 100%;
+    height: 280px;
+}
+ 
+.caption {
+    background: rgb(173, 192, 204);
+    color:  blue;
+    padding: 5px 15px;
+}
+ 
+/* Pillars */
+.pillars-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+ 
+.pillar {
+    background: white;
+    border: 1px solid #dde8e4;
+    padding: 20px;
+    width: 30%;
+}
+ 
+.pillar:hover {
+    background: lightgoldenrodyellow;
+}
+ 
+.num-big {
+    font-size: 2em;
+    color:  blue;
+}
+ 
+/* PERMA */
+.perma-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ 
+.perma-item {
+    display: flex;
+    gap: 15px;
+    background: #2e3330;
+    padding: 10px 15px;
+    border: 1px solid #4a83ab;
+}
+ 
+.letter {
+    font-size: 2em;
+    color: blue ;
+}
+ 
+.perma-item strong {
+    color: white;
+}
+ 
+.perma-item p {
+    color: lightgray;
+    margin: 0;
+}
+ 
+/* Strategies */
+.strat-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+ 
+.strat {
+    background: white;
+    border: 1px solid #dde8e4;
+    border-left: 4px solid  blue;
+    padding: 20px;
+    width: 45%;
+}
+ 
+.strat h3 {
+    color: #1a254a;
+    margin-bottom: 10px;
+}
+ 
+.strat li {
+    padding: 5px 0;
+    border-bottom: 1px solid #dde8e4;
+}
+ 
+/* Resources */
+.res-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+ 
+.res-card {
+    background: #f5f5f0;
+    border: 1px solid #dde8e4;
+    padding: 20px;
+    width: 45%;
+}
+ 
+.res-card.urgent {
+    background: #fff5f5;
+    border: 1px solid #f5c6c6;
+}
+ 
+.res-icon {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+ 
+.res-card h3 {
+    color: #268ddc;
+    margin-bottom: 10px;
+}
+ 
+.res-card li {
+    padding: 5px 0;
+    border-bottom: 1px solid #dde8e4;
+}
+ 
+.note {
+    color: gray;
+    margin: 10px 0 0;
+}
+ 
+.note.red {
+    color: red;
+}
+ 
+/* Footer */
+footer {
+    background: black;
+    color: lightgray;
+    padding: 40px 20px 0;
+}
+ 
+.footer-grid {
+    display: flex;
+    gap: 30px;
+}
+ 
+.footer-grid > * {
+    width: 33%;
+}
+ 
+footer h4 {
+    color: white;
+    margin-bottom: 10px;
+}
+ 
+footer p {
+    color: lightgray;
+}
+ 
+footer a {
+    color: lightgray;
+    text-decoration: none;
+}
+ 
+footer a:hover {
+    color: blue ;
+}
+ 
+.sub-form {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+ 
+.sub-form input {
+    background: #2e3330;
+    border: 1px solid gray;
+    padding: 8px;
+    color: white;
+    width: 100%;
+}
+ 
+.sub-form button {
+    background:  blue;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+}
+ 
+.socials {
+    display: flex;
+    gap: 15px;
+}
+ 
+.footer-btm {
+    border-top: 1px solid #2e3330;
+    padding: 15px 20px;
+    text-align: center;
+}
+ 
+.footer-btm p {
+    color: gray;
+    margin: 0;
+}
+ 
